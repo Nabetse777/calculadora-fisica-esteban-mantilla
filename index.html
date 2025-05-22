@@ -1,0 +1,84 @@
+<h1>Calculadora de Magnitudes Físicas</h1>
+<p class="author">Nombre del estudiante</p>
+
+<section>
+  <h2>Velocidad (v = d / t)</h2>
+  <input type="number" id="vel_d" placeholder="Distancia (d)" />
+  <input type="number" id="vel_t" placeholder="Tiempo (t)" />
+  <button onclick="calcularVelocidad()">Calcular</button>
+  <p>Resultado: <span id="res_vel"></span></p>
+</section>
+
+<section>
+  <h2>Aceleración (a = Δv / Δt)</h2>
+  <input type="number" id="ace_vf" placeholder="Velocidad final (vf)" />
+  <input type="number" id="ace_vi" placeholder="Velocidad inicial (vi)" />
+  <input type="number" id="ace_t" placeholder="Tiempo (t)" />
+  <button onclick="calcularAceleracion()">Calcular</button>
+  <p>Resultado: <span id="res_ace"></span></p>
+</section>
+
+<section>
+  <h2>Fuerza (F = m · a)</h2>
+  <input type="number" id="fue_m" placeholder="Masa (m)" />
+  <input type="number" id="fue_a" placeholder="Aceleración (a)" />
+  <button onclick="calcularFuerza()">Calcular</button>
+  <p>Resultado: <span id="res_fue"></span></p>
+</section>
+
+<section>
+  <h2>Trabajo (W = F · d · cos(θ))</h2>
+  <input type="number" id="tra_f" placeholder="Fuerza (F)" />
+  <input type="number" id="tra_d" placeholder="Distancia (d)" />
+  <input type="number" id="tra_theta" placeholder="Ángulo (θ en grados)" />
+  <button onclick="calcularTrabajo()">Calcular</button>
+  <p>Resultado: <span id="res_tra"></span></p>
+</section>
+
+<section>
+  <h2>Energía Cinética (K = ½ · m · v²)</h2>
+  <input type="number" id="ec_m" placeholder="Masa (m)" />
+  <input type="number" id="ec_v" placeholder="Velocidad (v)" />
+  <button onclick="calcularEnergiaCinetica()">Calcular</button>
+  <p>Resultado: <span id="res_ec"></span></p>
+</section>
+
+<section>
+  <h2>Energía Potencial Gravitatoria (U = m · g · h)</h2>
+  <input type="number" id="ep_m" placeholder="Masa (m)" />
+  <input type="number" id="ep_h" placeholder="Altura (h)" />
+  <button onclick="calcularEnergiaPotencial()">Calcular</button>
+  <p>Resultado: <span id="res_ep"></span></p>
+</section>
+
+<section>
+  <h2>Densidad (ρ = m / V)</h2>
+  <input type="number" id="den_m" placeholder="Masa (m)" />
+  <input type="number" id="den_v" placeholder="Volumen (V)" />
+  <button onclick="calcularDensidad()">Calcular</button>
+  <p>Resultado: <span id="res_den"></span></p>
+</section>
+
+<section>
+  <h2>Presión (P = F / A)</h2>
+  <input type="number" id="pre_f" placeholder="Fuerza (F)" />
+  <input type="number" id="pre_a" placeholder="Área (A)" />
+  <button onclick="calcularPresion()">Calcular</button>
+  <p>Resultado: <span id="res_pre"></span></p>
+</section>
+
+<section>
+  <h2>Carga Eléctrica (q = I · t)</h2>
+  <input type="number" id="car_i" placeholder="Corriente (I)" />
+  <input type="number" id="car_t" placeholder="Tiempo (t)" />
+  <button onclick="calcularCarga()">Calcular</button>
+  <p>Resultado: <span id="res_car"></span></p>
+</section>
+
+<section>
+  <h2>Ley de Ohm (V = I · R)</h2>
+  <input type="number" id="ohm_i" placeholder="Corriente (I)" />
+  <input type="number" id="ohm_r" placeholder="Resistencia (R)" />
+  <button onclick="calcularOhm()">Calcular</button>
+  <p>Resultado: <span id="res_ohm"></span></p>
+</section>
